@@ -195,10 +195,6 @@ DNS.3=ros.rockstargames.com
 
 To use your own domain, edit these values.
 
-# Backup Restore
-
-The original file is never overwritten without creating a backup.
-
 ## Missing files
 
 The patcher requires:
