@@ -1,7 +1,6 @@
 import os
 import shutil
 
-
 EBOOT = "EBOOT.ELF"
 BACKUP = "EBOOT.ELF.backup"
 
@@ -27,7 +26,6 @@ def create_chain():
 
     intermediate = read_file(INTERMEDIATE)
     root = read_file(ROOT)
-
     chain = (intermediate + b"\n" + root + b"\n")
 
     with open(CHAIN, "wb") as f: 
@@ -40,7 +38,6 @@ def create_chain():
 
 
 def patch(fp, offset, size, cert_file):
-
     cert = read_file(cert_file)
     cert += b"\n"
 
@@ -57,13 +54,11 @@ def patch(fp, offset, size, cert_file):
     remaining = size - len(cert)
 
     if remaining: fp.write(b"\x00" * remaining)
-
     print("[OK] Certificate patched")
 
 
 
 def main():
-
     if not os.path.isfile(EBOOT): 
         print("[!] Missing:", EBOOT) return
 
