@@ -180,6 +180,21 @@ Certificate Slot Size:
 3037 bytes
 ```
 
+# Changing the TLS Domain Name
+
+The generated TLS certificate uses the domain names defined in the `alt_names` section inside `generate.sh`.
+
+Default configuration:
+
+```
+[alt_names]
+DNS.1=ros.rockstargames.com
+DNS.2=ros.rockstargames.com
+DNS.3=ros.rockstargames.com
+```
+
+To use your own domain, edit these values.
+
 # Backup Restore
 
 The original file is never overwritten without creating a backup.
