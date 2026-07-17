@@ -98,7 +98,7 @@ tls/
 | `intermediate-ca.pem` | Intermediate CA certificate |
 | `tls.key` | TLS private key |
 | `tls.crt` | Complete TLS certificate chain |
-| `tls.cer` | DER encoded certificate for EBOOT |
+| `tls.cer` | DER encoded certificate |
 
 ---
 
