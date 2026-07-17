@@ -201,8 +201,8 @@ The patcher requires:
 
 ```
 EBOOT.ELF
-../tls/intermediate-ca.pem
-../tls/root-ca.pem
+tls/intermediate-ca.pem
+tls/root-ca.pem
 ```
 
 Make sure the paths match your folder layout.
