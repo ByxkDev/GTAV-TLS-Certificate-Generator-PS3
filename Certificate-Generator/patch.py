@@ -4,8 +4,8 @@ import shutil
 EBOOT = "EBOOT.ELF"
 BACKUP = "EBOOT.ELF.backup"
 
-INTERMEDIATE = "../tls/intermediate-ca.pem"
-ROOT = "../tls/root-ca.pem"
+INTERMEDIATE = "tls/intermediate-ca.pem"
+ROOT = "tls/root-ca.pem"
 CHAIN = "eboot-chain.pem"
 
 PATCH_OFFSET = 0x183FEB0
