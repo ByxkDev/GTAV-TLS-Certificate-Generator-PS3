@@ -113,7 +113,7 @@ TLS Certificate
 Intermediate CA
         |
         |
-Root CA
+     Root CA
 ```
 
 # EBOOT Patching
