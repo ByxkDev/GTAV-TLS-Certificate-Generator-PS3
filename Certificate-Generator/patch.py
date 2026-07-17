@@ -35,8 +35,6 @@ def create_chain():
     print("[+] Chain size:", len(chain))
     return CHAIN
 
-
-
 def patch(fp, offset, size, cert_file):
     cert = read_file(cert_file)
     cert += b"\n"
@@ -55,8 +53,6 @@ def patch(fp, offset, size, cert_file):
 
     if remaining: fp.write(b"\x00" * remaining)
     print("[OK] Certificate patched")
-
-
 
 def main():
     if not os.path.isfile(EBOOT): 
