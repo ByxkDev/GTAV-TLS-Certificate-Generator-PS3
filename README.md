@@ -74,8 +74,8 @@ Example:
 Run:
 
 ```bash
-chmod +x generate-cert.sh
-./generate-cert.sh
+chmod +x generate.sh
+./generate.sh
 ```
 
 The script will remove any previous TLS folder and generate a new certificate hierarchy.
