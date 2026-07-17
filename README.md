@@ -1,4 +1,4 @@
-# GTA ODT TLS Certificate Generator & EBOOT Certificate Patcher
+# TLS Certificate Generator & EBOOT Certificate Patcher
 
 The project creates a complete certificate chain:
 
