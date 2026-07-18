@@ -183,7 +183,7 @@ openssl x509 \
 echo
 echo "DONE"
 echo
-echo "Go server:"
+echo "Server:"
 echo "$TLS_CERT"
 echo
 echo "Key:"
