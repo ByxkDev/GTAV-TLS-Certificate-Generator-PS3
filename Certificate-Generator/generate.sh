@@ -166,7 +166,7 @@ cat \
 "$ROOT_CA_CERT" \
 > "$TLS_CERT"
 
-echo "Creating EBOOT certificate..."
+echo "Creating certificate in DER format..."
 
 openssl x509 \
 -in "$TLS_LEAF_CERT" \
@@ -189,5 +189,5 @@ echo
 echo "Key:"
 echo "$TLS_KEY"
 echo
-echo "EBOOT:"
+echo "DER:"
 echo "$TLS_DIR/tls.cer"
