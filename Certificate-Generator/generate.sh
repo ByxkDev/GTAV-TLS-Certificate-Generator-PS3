@@ -158,7 +158,7 @@ openssl x509 \
 -extensions req_ext \
 -out "$TLS_LEAF_CERT"
 
-echo "Creating Go TLS chain..."
+echo "Creating TLS chain..."
 
 cat \
 "$TLS_LEAF_CERT" \
@@ -166,7 +166,7 @@ cat \
 "$ROOT_CA_CERT" \
 > "$TLS_CERT"
 
-echo "Creating certificate in DER format..."
+echo "Creating Certificate in DER format..."
 
 openssl x509 \
 -in "$TLS_LEAF_CERT" \
